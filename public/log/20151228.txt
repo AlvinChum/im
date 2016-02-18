@@ -1,0 +1,48 @@
+------------------------------------------------------------------
+2015-12-28 01:37:52
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"4QYsJ17BLK6dJfqhG9VAT37gZPYjWiKdPrsRCJ8bcj2zkl9AqdVBoYAgP1rFAHNYqy6yp0j8Z93HZmAxgKzvR0Y0RPP2JTjVuOeCd0al0FLVFkm2mcn799lGfXJXAPos","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-12-28 01:37:52
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=SHNU6HGOIV&redirect_uri=http://138.int.icom2work.com:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"skavHmtj4itbXUTDCHGsXnrtRRWyJOOSgZ5HahGjv0z0GPYZGgejv9HdlwdHvjMLryrAeGslRaLXefy3DyEcv5nItzOQFLiisCV2VsXiaxtbou59QhikCBp35wt4ita6","expires_in":7200,"refresh_token":"tm4uBfGnlmtNdnr0F9dNCwOW5cX6XFXFdI6AmdzEcCAI3jO78HMtGVpd6kgsf0bzLs4uYfdVAIUz45ptvtWQbU5rxY8UfqJLU8WSocxEYLhkru60kj5x27nxGnsSdZ4g","openid":"qsXf2eUcXqdXq4StMPnBsdxp6j5bgjbzvaDrJccPXVIwsMJ6V9N7gyTB","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-12-28 08:51:01
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"DtI2H1fvUifnR8n65aTh3YQTiVFY0r9ObgdJW3KChPfGiIzYBkGsJxOYsGqHttbU77iE0DMfuHrOPDWunx9Qk0INBgWtIQ8Ad6Dk9ycQyvsAGuB8FL5XKEUDn2HXWBqX","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-12-28 08:51:01
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=U2MV463PYQ&redirect_uri=http://138.int.icom2work.com:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"H8yN1r2PwuveBHDtTnnxlRtdwiiC2RLuOf5DXq77ZRtqfjyUHsecQSledRCHhizymbIL28GnVeA8WhyKCpVTd0gdQtlA6v8LZN6A7FBVIKqZ7o1BKBjC6BFC7sUj8CIC","expires_in":7200,"refresh_token":"7m2KkeT6rPHcP2iFXhiXvvf8gRRA8kzm4HI7XMZy4IXnzyKRUEtFdkr6ULE4powxFNJSz5jH5171rcp6tpDg3Ry2ypxSyhm8BdxxqKYPhSLvewUp7g71woUQgb49GMjb","openid":"qsXf2eUcXqdXq4StMPnBsdxp6j5bgjbzvaDrJccPXVIwsMJ6V9N7gyT9","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-12-28 10:16:10
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"mtvJNdh0xCmuv6KJKLX7kXnX41pSUFDHozFY2E5jcSKBDbEVFxdrWQPGjxKUgs51jNugviFr1V8ZsXsgdIZ0v7HcjSE1S3VZhV409Ltho9s8eB09y0Ebnj9AnRvhQoxT","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-12-28 10:16:10
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=1P9Z4PU594&redirect_uri=http://138.int.icom2work.com:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"tO1SFvBhOXIvUwQ5dgn15FQDl2Qk8I7PLlp9cRPiHTRn7X52JOensZY8pld2VnYXzxitnX9NdlMcu1hUoY9ZOdFU6Xj6upjq88V3MlGfx89u2YAdCxv4WSgV5TnnzOdB","expires_in":7200,"refresh_token":"S0EPwhMEp6JYl8oVcKzWcw8ACtBBQDWTfYSBcZJIWhajynTBbQWD8Blr0hXJ7gCzpikTJXZJLDZDbU56z5vZaLjNnGYPjdlnMwIjw5YAC1jUcaJQ7RNyCY0zYJ4D66Sy","openid":"qsXf2eUcXqdXq4StMPnBsdxp6j5bgjbzvaDrJccPXVIwsMJ6V9N7gyTB","scope":"get_user_info,notice"}
+
+

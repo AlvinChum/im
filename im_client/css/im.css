@@ -1,0 +1,507 @@
+.im {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -375px;
+    margin-top: -260px;
+    height: 520px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    padding: 0;
+}
+.work-type {
+    width: 66px;
+    min-height: 520px;
+    border-radius: 2px;
+}
+.work-im ,.work-flow , .work-im.action , .work-flow.action , .talk .talking>a, .talk .talk-history>a ,.talk .takl-user>a,.talk .takl-group>a , .close , .im-group , .project-logo{
+    background: url(../images/icons.png) no-repeat;
+}
+.work-im , .work-flow{
+    display: block;
+    background-position: 0 0;
+    width: 25px;
+    height: 25px;
+    margin: 30px 18px;
+    cursor: pointer;
+}
+.work-im:hover ,.work-im.action{
+    background-position: -35px 0!important;
+}
+.work-flow {
+    background-position: 0 -25px !important;
+    width: 30px;
+    margin: 30px 20px;
+}
+.work-flow:hover , .work-flow.action{
+    background-position: -35px -25px !important;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.work-user {
+    width: 180px;
+    height: 520px;
+    background: #e7f0fa;
+}
+/*交谈人*/
+.talk {
+    height: 38px;
+    width: 180px;
+    padding: 0px;
+    border-bottom: 1px solid #a2c8e7;
+}
+.talk .talking , .talk .talk-history ,.talk .takl-user,.talk .takl-group {
+    width: 25%;
+    text-align: center;
+}
+.talk .talking>a , .talk .talk-history>a ,.talk .takl-user>a,.talk .takl-group>a {
+    border: 0px !important;
+    background-position: 0 -150px;
+    background-color: transparent !important;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.talk .talk-history>a {
+    background-position: 0 -125px;
+}
+.talk .takl-user>a {
+    background-position: 0 -75px;
+}
+.talk .takl-group>a ,.im-group{
+    background-position: 0 -50px;
+}
+.im-group {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.talk .talking>a:hover , .talk .talking.active>a{
+    background-position: -35px -150px;
+}
+.talk .talk-history>a:hover , .talk .talk-history.active>a{
+    background-position: -35px -125px;
+}
+.talk .takl-user>a:hover , .talk .takl-user.active>a{
+    background-position: -35px -75px;
+}
+.talk .takl-group>a:hover , .talk .takl-group.active>a{
+    background-position: -35px -50px;
+}
+.talk .talking.active , .talk .talk-history.active ,.talk .takl-user.active ,.talk .takl-group.active {
+    border-bottom: 3px solid #9ec6e6;
+}
+.sing-user {
+    padding: 10px;
+    font-size: 14px;
+}
+.tab-content .tab-pane .sing-user img{
+    width: 35px;
+    height: 35px;
+}
+.tab-pane .close {
+    background-position: 0 -100px;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    display: block;
+}
+.talk-sing-user {
+    padding-top: 15px;
+    width: 503px;
+    display: table;
+    position: relative;
+}
+.talk-sing-user .work-time {
+    min-width: 100px;
+    margin-top: 8px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999 !important;
+}
+.talk-sing-user .popover {
+    margin-top: 25px;
+    border:0;
+    max-width: 403px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    background: #509ddd;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.work-talk-send-option .popover {
+    margin-top: 25px;
+    border:1px solid #d9e4ec;
+    max-width: 403px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    background: #ffffff;
+    border-radius: 5px;
+}
+.work-talk-send-option .popover.top>.arrow {
+    /*border-top-color: transparent !important;*/
+    border-top-color: #d9e4ec !important;
+
+}
+.talk-sing-user .left.popover {
+    margin-top: 25px;
+    border:0;
+    max-width: 403px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    background: #d2d6de;
+    color: #ffffff;
+    border-radius: 5px;
+    right: 0 !important;
+    clear: left;
+}
+.talk-sing-user .popover.right > .arrow:after {
+    border-right-color: #509ddd;
+}
+.talk-sing-user .popover.left > .arrow:after {
+    border-left-color: #d2d6de;
+}
+.talk-sing-user .popover.right > .arrow {
+    left: -8px;
+    margin-top: -8px;
+}
+.talk-sing-user .popover.left > .arrow {
+    right: -8px;
+    margin-top: -8px;
+}
+.talk-sing-user .popover .popover-content{
+    padding: 6px 10px;
+
+}
+.popover.right>.arrow {
+    border-right-color: transparent !important;
+}
+.popover.left>.arrow {
+    border-left-color: transparent !important;
+  }
+.tab-pane:hover + .close {
+    display: block !important;
+}
+.talk-user-form , .talk-history-form{
+    height: 480px;
+    width: 180px;
+    overflow: hidden;
+}
+.talk-company-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.company-menu {
+   /* padding: 10px;*/
+    color: #000000;
+}
+.company-menu a {
+    color: #999;
+    text-decoration: none;
+}
+.company-menu ul {
+    list-style: none;
+    padding-left: 5px;
+}
+.company-menu ul li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.treeview-menu .sing-user {
+    padding:0px;
+}
+.treeview-menu .sing-user img{
+    width: 20px!important;
+    height: 20px!important;
+    padding-left: 0px;
+}
+.project-logo {
+    background-position: 0 -175px;
+    width: 18px;
+    height: 25px;
+    display: block;
+    margin-top: 3px;
+}
+.work-talk {
+    width: 504px;
+    height: 520px;
+    background: #f0f8fd !important;
+    border-radius: 2px;
+}
+.work-talk .work-talk-title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #d9e4ec;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.work-talk .work-talk-send {
+    height: 100px;
+    border-top: 1px solid #d9e4ec;
+}
+.work-talk .work-talk-send-option i{
+    margin-left:15px ;
+    margin-top: 10px;
+}
+.work-talk-content {
+    border: none;
+    border-radius: 0px;
+    resize: none;
+    outline: none;
+    background: transparent !important;
+    box-shadow: 0px 0px 0px;
+}
+.work-talk-content:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px;
+}
+.user-logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 330px;
+    margin-left: 8px;
+}
+.work-talk-show-content {
+    width: 504px;
+    height: 338px;
+
+}
+.work-talk-show-content .sing-user img {
+    width: 35px;
+    height: 35px;
+}
+i.pull-right {
+    margin-right: 20px;
+}
+li.active>a>.fa-angle-left {
+    transform: rotate(-90deg);
+}
+.emoji {
+
+}
+.emoji img{
+    padding: 10px;
+    width: 45px;
+}
+.emoji img:hover{
+    border: 1px solid #d9e4ec;
+}
+@media (min-width: 768px) {
+    .im.col-xs-4{
+        width: 750px !important;
+    }
+}
+
+.bg-red,
+.bg-yellow,
+.bg-aqua,
+.bg-blue,
+.bg-light-blue,
+.bg-green,
+.bg-navy,
+.bg-teal,
+.bg-olive,
+.bg-lime,
+.bg-orange,
+.bg-fuchsia,
+.bg-purple,
+.bg-maroon,
+.bg-black,
+.bg-red-active,
+.bg-yellow-active,
+.bg-aqua-active,
+.bg-blue-active,
+.bg-light-blue-active,
+.bg-green-active,
+.bg-navy-active,
+.bg-teal-active,
+.bg-olive-active,
+.bg-lime-active,
+.bg-orange-active,
+.bg-fuchsia-active,
+.bg-purple-active,
+.bg-maroon-active,
+.bg-black-active,
+.callout.callout-danger,
+.callout.callout-warning,
+.callout.callout-info,
+.callout.callout-success,
+.alert-success,
+.alert-danger,
+.alert-error,
+.alert-warning,
+.alert-info,
+.label-danger,
+.label-info,
+.label-waring,
+.label-primary,
+.label-success,
+.modal-primary .modal-body,
+.modal-primary .modal-header,
+.modal-primary .modal-footer,
+.modal-warning .modal-body,
+.modal-warning .modal-header,
+.modal-warning .modal-footer,
+.modal-info .modal-body,
+.modal-info .modal-header,
+.modal-info .modal-footer,
+.modal-success .modal-body,
+.modal-success .modal-header,
+.modal-success .modal-footer,
+.modal-danger .modal-body,
+.modal-danger .modal-header,
+.modal-danger .modal-footer {
+  color: #fff !important;
+}
+/*灰色*/
+.bg-gray {
+  color: #000;
+  background-color: #d2d6de !important;
+}
+/*黑色*/
+.bg-black {
+  background-color: #111111 !important;
+}
+.black {
+    color:  #111111 !important;
+}
+/*红色*/
+.bg-red,
+.callout.callout-danger,
+.alert-danger,
+.alert-error,
+.label-danger,
+.modal-danger .modal-body {
+  background-color: #dd4b39 !important;
+}
+/*黄色*/
+.bg-yellow,
+.callout.callout-warning,
+.alert-warning,
+.label-waring,
+.modal-warning .modal-body {
+  background-color: #f39c12 !important;
+}
+/*水绿*/
+.bg-aqua,
+.callout.callout-info,
+.alert-info,
+.label-info,
+.modal-info .modal-body {
+  background-color: #00c0ef !important;
+}
+.bg-blue {
+  background-color: #0073b7 !important;
+}
+.bg-light-blue,
+.label-primary,
+.modal-primary .modal-body {
+  background-color: #3c8dbc !important;
+}
+.bg-green,
+.callout.callout-success,
+.alert-success,
+.label-success,
+.modal-success .modal-body {
+  background-color: #00a65a !important;
+}
+/*深蓝色*/
+.bg-navy {
+  background-color: #001f3f !important;
+}
+/*蓝绿色*/
+.bg-teal {
+  background-color: #39cccc !important;
+}
+/*黄褐色*/
+.bg-olive {
+  background-color: #3d9970 !important;
+}
+/*青柠*/
+.bg-lime {
+  background-color: #01ff70 !important;
+}
+.bg-orange {
+  background-color: #ff851b !important;
+}
+/*桃红色*/
+.bg-fuchsia {
+  background-color: #f012be !important;
+}
+/*紫色*/
+.bg-purple {
+  background-color: #605ca8 !important;
+}
+/*褐红色*/
+.bg-maroon {
+  background-color: #d81b60 !important;
+}
+.bg-gray-active {
+  color: #000;
+  background-color: #b5bbc8 !important;
+}
+.bg-black-active {
+  background-color: #000000 !important;
+}
+.bg-red-active,
+.modal-danger .modal-header,
+.modal-danger .modal-footer {
+  background-color: #d33724 !important;
+}
+.bg-yellow-active,
+.modal-warning .modal-header,
+.modal-warning .modal-footer {
+  background-color: #db8b0b !important;
+}
+.bg-aqua-active,
+.modal-info .modal-header,
+.modal-info .modal-footer {
+  background-color: #00a7d0 !important;
+}
+.bg-blue-active {
+  background-color: #005384 !important;
+}
+.bg-light-blue-active,
+.modal-primary .modal-header,
+.modal-primary .modal-footer {
+  background-color: #357ca5 !important;
+}
+.bg-green-active,
+.modal-success .modal-header,
+.modal-success .modal-footer {
+  background-color: #008d4c !important;
+}
+.bg-navy-active {
+  background-color: #001a35 !important;
+}
+.bg-teal-active {
+  background-color: #30bbbb !important;
+}
+.bg-olive-active {
+  background-color: #368763 !important;
+}
+.bg-lime-active {
+  background-color: #00e765 !important;
+}
+.bg-orange-active {
+  background-color: #ff7701 !important;
+}
+.bg-fuchsia-active {
+  background-color: #db0ead !important;
+}
+.bg-purple-active {
+  background-color: #555299 !important;
+}
+.bg-maroon-active {
+  background-color: #ca195a !important;
+}

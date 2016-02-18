@@ -1,0 +1,320 @@
+------------------------------------------------------------------
+2015-10-09 09:36:20
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"kA3XWwPUS48KbyoWizhvw9ThzE2k0qIjCRuSrO4m3rCbVAPn04wqbnotd3gKgUpmSsuBCmNAjULq3JEwU8VjPyKcPyEt5XQEbAQOXH64CoRUHKU7OYt8MwEG0v71sIHC","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:36:20
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=6COBPZMP2V&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"oNmLDXq3S1LayfRsh160sZW1cGJnoaq9pCfOkTZKdAKq1R2oNeKtKjffqFvJpfOi4mhI9qs8gRZJkvRJdty4iUmYI50suuoMVahxIXqZrsR0O6Qh4RkaojnnUmx8w0XE","expires_in":7200,"refresh_token":"nvRQrr8qAZH18yldTydU5yCuw9V3IC2dfrBPth3buhYolJ2k0uCmvXGkCT4Aqr7spliugqy2mfPbDWEVHdEnIql4XhQhdpzZ0ngj868MQa5PQG1d4liin2NaXSol4A2q","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 09:36:57
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"zgHDzHkw9woDuNB9edo6PDyFWmX0a7ylaKBGuDOEIpZpcKFQczHM6OtlajD6JWQBL9l3XfhuizaYq2gdnwQETxHBsusjvk9eKabR46OlihzK7LwB43JxtceAv8AvclD6","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:36:57
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=6COBPZMP2V&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60011,"message":"code被重复使用"}
+
+
+------------------------------------------------------------------
+2015-10-09 09:39:12
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"uT7YqPdr8iiYzAC0r9Kh3StCsP4hilHQgHlK2S9vaeE0hSrSR07j76RGP9f9gyh1LR405USAvPwQvsQZnTBHiYaG0hC7eZ5ghfTvr8n4dFkHMew5A2M9PXR6yxPzpZTX","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:39:13
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=EMD4EDUFW0&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"uWrrkFJN69aNcPuyVhD4MtuSMaY1MYjRDkX60BsTwPPbPvnAXivNnqpI26xBGHkIr7wvYy0tiww59HYHKOhhnISUy4tZnTJZQEU3g5LiglyTzTyMqKNteotnuGQSG8X3","expires_in":7200,"refresh_token":"Myhkv6YsvcSxJdmojpD75wKmEKo1so21bC01Oan4p4AwlUQy8FL4EyBgFbohO768SLnImVZS1KQRg8sSwdVWobSoUvDop73N4ClS3SUNJKJHaHyZtg09fZwNG2eBWndJ","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 09:53:19
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"dDveGNBrbXwHQyKTnzv714sLVlBbR2LbWml0Z1rJg92tGIqqlurnMpiu7i5xeBvhC2VJQMpL3sNoaGI9uLQtVg9bi81r13xUvBF8hQwzAs7dQImFPaFLHgTEAq82yr46","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:53:19
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=HUV4T7LPJ2&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"SqDLgylGAzsRkiaYkJjxVnw9jvBLnnyqvrlJLNmARYnOYHfoi2apXcusiGZOFT2DqNWpYDCThPO8DqtszJg791b9Z3rRHAx6DJbp9lR2k2wgYQXvzTSTQ4slwxJ5djgY","expires_in":7200,"refresh_token":"p4DfUXobTrfydsWwJYwoowPwej65qyqErFwRP2dfu0mDDnLUj3d8OOpdnfwsmjpSFDJGEd9oucFYto1JZgThKBHBlzdIyWEWv5cVKSeZfFGGsT7R869nYmI4jUilCDFj","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 09:56:47
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"ForhH5mrmHKOJ0IOQ39Xu0S7Mu59Zqsodjo2TYfugX0dWVby4s6cmnnZ529DraiTJtErkU7b2LJSLyZvAlxAhliYcbxf0GDuGOc9nojhmFkUXZx3KJPodGwMmnLbkQrV","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:56:47
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=HUV4T7LPJ2&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60011,"message":"code被重复使用"}
+
+
+------------------------------------------------------------------
+2015-10-09 09:57:24
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"CHFNXLyrCEzGJ2qRtDbJe9DiiIetbFeVbsOeykNCOhzgZcsseoUwYCUUoaaFrfrRJMxjjKDeVuYy6e6BH6pfdvCnxVy5gMYQ4eJfbMKd9B60POWu1qZuyZ5hWHDTxgBL","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 09:57:24
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=QJHJHSR1Z2&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"beiWhSlgdKxCW0Oc2nK456yM7dfX5ewXwjRagwvGlUkOtDcKiRVDpgEMXUfK8jNjAT4JWCKmIY2NSrU4EzJTtgEkhcz6pmTx8jIasRoyAJpmaiVBqJjHzyW4RHENffu6","expires_in":7200,"refresh_token":"inklx6hptXN8aSxN62MA1FwhmvghDwUIHjfGdcZhLgRMf61G2Qj76HWovQzKsuxkBl3ryU7Ilqi7N7tjpQ6Gfl2Wrog9sM3HWMQUUQXwIjzjaZ8FPSqxFQNZBYPnCmAj","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:03:39
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"vYxzVTMptaLCVI70CEBv98dBnyshLuGPcmIM2cxsUtq5eQQqeSoaGVdR2ZAvHDtjlEF6orLCnhOGfihrr8evscoSP7e1r79EpKQErmv3rtHt3YIOHbgcr9IqCQ9RGd7X","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:03:39
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=VT5VYVP8OJ&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"duNFvDl5q7XrTmEuVr5XOtVgxLS2MQlDO6fEgmVr5qnpEygKQNVsFROAasKxDEPAlORTH112kv7iMhUC44HdtdQUVsK5SIEahMDJ4g3FKr6qKvm5VVrH4WOhsoNaUjk8","expires_in":7200,"refresh_token":"U2C2PFcEeVQyBMkCk0GxxFs6S4TrveLfZ6pJLzeSMZ3S7btVwXVPmx5BYi16D44HwKvrJHLdfawGwljgoqieqxmPvG8nJeYMxJakQn76jOE8xEMg0acp8KbQ1bmvWACu","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:06:52
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"D3K0w0ZnhSdbEC40tzUX1eRyfmGTLmzD0WG1HskHwZXBSq2Wyx91ECckp32wooJ4PIZ47QJm75sj2uXpyTR1gE2FosZrrA0VBNnC1eMAAuwHfnmwEJTdlWNXse1TtViU","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:06:52
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=VT5VYVP8OJ&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60011,"message":"code被重复使用"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:07:22
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"nyEFfWbBLGYje389J5pvcJKxLs283k5lzTN9LEcNWxC01YUeYKtFrJGenXEfRKiHuG4CPl92ahoOTwDqeKYIsJuE8VKsrrbOOGpTxSwwvvQooTbYUnmlsAJnSStj6UCN","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:07:22
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=DR42IF9ZXY&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"qArIJ4YlNf4ruWAae6BggECMFqiuZSPxnQepqZI3AUmewcKvmmooVDjGzuy4fQFPiCaEOiHaI5Du06LL2pGwBAbwj4CWehiX7FBvy3Y67mQGXSBFFTd1ByzOt4WWwCRm","expires_in":7200,"refresh_token":"G1K7e4LhvpgZj3v91OnjO3Wl7WCsWTEHjx3w1vMjaTxyvPPMFyHYqeBDXgzc34Rua2UBVz4h2hkXdXtXgs9VSQ54spr0A8nHv8hwv1zid2kaRUXuuj9ysNEKejsMAHWo","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:08:38
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"25pdxuv4fzi85N9zukecq6EvkyUa00l2u4S51GOslwRSFoRFHlvDvtzpxkH4LMMJjl7zekaPZupwqL9CwLDqdsBAISADtpOdfG0cs14JTEmrZHcihyUR4az1klHh8mpk","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:08:39
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=EM18RB3BFE&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"DfoDnG7bEV8tcrvWTSIDSejFzUGiR9DOYXHVIgOT4DrTfsszABCZrA7XDipJ2rnVfBDn8meCKB0O8Z2LjnHBoItHPRmhbsEvb2kgqR0Ut8pdOvK5LaZGvhhl14vCjKMg","expires_in":7200,"refresh_token":"lFD7DuvTmpT0g5W6tvOip1njUJWQbB2ZaAIHzBms0pSZy4SFt1a8tmJhWRLl71aelHz3PP6mPV2ExSqz9u21qGQn11g0jtI7Vl4tCCeaxJOTZ1qDXKJHfJYUP34pHYkj","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:10:38
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"IlBuHz7L0ECkhSapvNaOTXCd2AhNpKtcABLtMGv5WW9BktFQ0IqjXXWWshaJoH54KN6RErPXJE4DAqBRsAdx4YjOH9xhoNPMvS6nKVk157XtHKwchuZabGGeccTwzqUZ","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:10:38
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=EM18RB3BFE&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60011,"message":"code被重复使用"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:12:46
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"Smmd3xk8uTHLKgPsVhkrQ4aWSo1vdRKWmJcb6jDe6AV8U6ObK630cQsRgsuMFyS6kP1KBQ7JZ0sieCPix7rN2AB9IgzwEvBeOdSIdyOFA4vxWgM8cdXG1XV0YaEUM0yZ","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:12:47
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=AY8RVPK53V&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"zayWFZRQvGMQiSqAgI9NhN02w8t5QXtKlKzk3KnKsmwSx6fMMiQo0dV6ezudCuD3z1fCvg080mOJ1T6BA1s6KuedDFjrwBGbgi6jQCRuSWME1s2bgrC4Bw13gTTz4P06","expires_in":7200,"refresh_token":"MbVPG8nSgr2eyf2bjJJFDKgS8P5nQgyUtgU9Gyr1o6DseDbyElvEHTFqr9Ehn4dxxziN5LftKiNT9ghN9qrsKeiYvGzizaMzk1PSQ5uBmbQpiqdikK1u1yFIoT06B0AV","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:26:47
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"6OauTIEJP5ykKmN58TrctvnRsjICqfC2AJJ9J9O2X0atkPWLqfokNkbFwDPcplbjQXb7lbQ36UGRyGk3H4cCTE0xfygNrxUpj0UMyMD37XLCahaQmJ2AxI2usdAs9fVo","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:26:48
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=WZCNVCQ58D&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"CwREyIwM9Z542udp0WZJbgOve7NT4JopJcDlUL3ZUB9CVdzgM5LmiQrtLFSVwTBAok4BWOK4qoYkqpnbX7gbHYvAe806eQplXJ551NAhgMjfBB0fZ9ubGbsOxNhztGAk","expires_in":7200,"refresh_token":"B8V37kKArdMCnbUZnkDv1PMzR47RRa9THAJFnmwd7vtubmPAJ8tDwKl7BR0uRml8nAoE2KAP0zTaVcjnudiEeIYQH9ThuVO8M6EL7fcucMqpfpKLNjCmFIl0OqW1UMw3","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:27:12
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"DqPSm5cUxUxXjLF7TWmyO7Nh3kCE3PDBv1QS1HgTQ4CxPJ7GSmnABPM0ziR86wJkX8KBUyMjlLMHgoKHshuICKlSEpnQSfGtfen0Rh8lKmW8TlPtn0HYxqFCgFP2E7U5","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:27:12
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=WZCNVCQ58D&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60011,"message":"code被重复使用"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:27:13
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"OLfU7L0ntEH3eJLmM6euCNrJsjPm8FsSA7tuwV4BzewkY9ihgeJ3pvoch0r5DYAwpjx84ToTzOzFG1okmrkvxBxKfNiESvaq03FWBhRqvTs0c5KJQXz6TdxZvw2fZpgO","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:27:13
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=8PF678QH7E&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"TB2CSQDcNo4KL6rze2ijDNSzKnPuwFZp16VM3pbh6cSgt13BJ7TAD1yCqdOJjj9NkiCzLHZbw8BP2V8iHcyPyrODjSWGCLvbNoGU4TpQdtY6CIriLiQuazauvF3iojkQ","expires_in":7200,"refresh_token":"XIbHcWXWKVv5Wavj87fEauu9tuzmw2bPpnKGROhuEBSIBzpHzcSR0jtpPDq4uCBBqQgFM1JmPR6KbgUOUU0G2TY8g8x78ZiousRBeXaXcK7gIcuoo6ZZYY3P6psZHDqC","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:29:52
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"5yVGFNxuFDD53CrSzUIBwWm3bGlVGJGNTjgPoNN0amb9IVZO5MMEORvwOkqg816avafXEy3ifRHGUhe5Js6g1DJ2so97sSleam3YhqNGDYEDMR68mIB6Dr0h1H2XAjbK","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:29:52
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=AY8RVPK53V&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60010,"message":"无效的code参数"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:30:31
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"zrIW3xc7t0JLUuXa98rhPSL7qFGz85uJi2iohta6qU8Fe3nDuBuL3QiOCJOm1h7jxb23c3gryyEZMRlDI19xMMJAoHoQkD9OlnoV9ZtmT31iqB5Qn5M6PUT6Ybe97SlS","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:30:31
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=XXK5Q643CH&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"NCFq4xr51UuXJ0PnkVlCeTqRM6uQSghuivzuHUoul4BgrcEERL3xKOKV8973dWJj4Do3xtsFKypOy8fAjLrtjIGyWooPX3vZRavrZsmwUi6gSVaNOqwad8l5kP3FTVB0","expires_in":7200,"refresh_token":"Dq7F7f9JlTGlAnfowh9Hue1kmGHZ1E7OZMtPvmVJOuKloS0kasYbXoqFzUszc3Wy8iWymx4S7dChVgJc9yk3gcyBuWe4BOZmReeoQ3rwPfZqirMpwemlGhOAXT5WUGzb","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:31:08
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"QWfalYnrWFJexr8AZ8FYXCTQHm85A9Api3n5OQX3fPwEAUxemSu2IiftN4EJQFBLwUkcEnhYksyG8dBKcrJIIfmQoru4NvI1e09zLT2PxN7XLfmsm4m1RDCbmXGUREtp","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:31:08
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=997QPR7GE9&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"KfJ9iZeobb1Vkf5XSdvsrXTIxqPiLYsMbMHp8q9EStBW6pWlOvC7fbx1w5naoxJN7rMQ1UP03lhuWLsvLSyiW6UK8qxG5T9KmDwhRAOKKjRaBP7MnACSSHz2AAa3ecYe","expires_in":7200,"refresh_token":"P4czadMru84EXp3vJkshZ8bTyJl2KDuSJq7hWsMpuwD3uHzMRGFoEjb0d3u1LPSI4aNMN0DwZLu5Zeu948SNCWRwyeA3ViGkLGOsjnXZt5qihKkWCKw7HUTJ5skzqnDY","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:37:19
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"rb5gIFWrr9dX8GqYJl6uaJsbMOQoG02jPXqtFYNnuLrtsR6NGEiU6YJUB3JU590VXbDeAv2HzUXpk2IfjHObSNFFNyeBwLpY50TEPDeWlSi3dYnNfzjLKKNNR7QeOyxd","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:37:20
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=SMA2UENXCP&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"z0Y5CLOsopMNF2C6Wl30oBGbYgWCkaUyliZrkvVD7G0VcXQFd3Snb2TeNSTAdxT7UbqQObmzrDxEq7PDICvvYHH9ZENeo1g96xRd3H0YLRgSuJ25caQEcg0rpe8GyTxw","expires_in":7200,"refresh_token":"14VLSta0eNtVjQBOfCRQNBvCh0S86QjHNAVuVD3ygFLuzLpb9M6F4DYF3LZLcXM7V8cHLePJmWZyjoGDNXqU6hF0jsX1WbAIM8yEvP1675IkJlNFDXUXN4Ehgubvcujz","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
+------------------------------------------------------------------
+2015-10-09 10:43:39
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"71La11O8JfeHjR1XkrTGlDH1xwS2PLZYHMMX4oaCLjxkDssRGs08Bssl3z5AoBrGVlMwHUNlZeMjLAl5aOb6ue89NwBU0XYZGgfqG1bqCaAtOdCRbg0aP6IsS53uXWpu","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-10-09 10:43:40
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=64TLTR4W9Y&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"zWxCVuBr0I7iyzUCPtpYcrnYdtw3JdY6UKe9NPuzw4xIpHROSmmZ4x4fjUNCfJpQU8cfN2v6ibnGdvC5jZwYrQlH2VrWHqQL0W8UyCMAeklB92jCAalhdPqJIQKOAIaH","expires_in":7200,"refresh_token":"Im7ZV0y1KTaHd5epD1gxinkNDzMKGf7XTlw4rnJk9efJkOqBNVTebSxsbsZPBzlu83WmVeizwjaFXARii4HuGhpNl5QkB7YPyky0pWYjHdFkTJSJfcXblE5S3OBvKVhz","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+

@@ -1,0 +1,16 @@
+------------------------------------------------------------------
+2015-11-06 01:51:35
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"9rRKJUMQvq00idknExrtixpBhgLB6cVEpBvaxamLaJTyd68qFMCMynO9vnS7hSSzNGdzlpLBV7Wv0Ax1JrdLbVexgQsPDvBySrM1uTT7iTBGABQ7DuugBet9UprDqWV3","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-11-06 01:51:35
+GET http://138.int.icom2work.com:92/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=DBLJ3E1LXB&redirect_uri=http://138.int.icom2work.com:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"wynM3ySOy47bS84ngmhzpStYIEDqjBnstbpVN2t4g1EkLNaSGQ6M6RCSezfpFLwmZSdogUGxpk2dzCOuYwaQ6L63sMfxtFqKFowg99RHNJYOIkyTWwrRUUF6k5jG88TJ","expires_in":7200,"refresh_token":"HFclU17QkpE9DeNJGJtBEUfsJ27XkdS7zHAeAcbmS1l3voRNPPSvDVEMuzb8LENyFFWW5kbE43CJsitE3QclHslBiJdIq5U9mIlxIrMPQJ45GnCPEyybsxEjy7Y10re5","openid":"qsXf2eUcXqdXq4StMPnBsdxp6j5bgjbzvaDrJccPXVIwsMJ6V9N7gyT9","scope":"get_user_info,notice"}
+
+

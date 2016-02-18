@@ -1,0 +1,32 @@
+------------------------------------------------------------------
+2015-09-29 01:48:49
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"b6jMnLO7lOw9B3s0StPyIwWGq70TDQwgHbDGi2e4KA4LQB1aUgdv7n6r4sS4lOJ4y6eSkSVTPavL15eRRDyu2N4g4gzgBMt7g70389JhqbtrRQyUs2NlsSEq4FQa3Fw2","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-09-29 01:48:49
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=JKAZEK8MEF&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":60010,"message":"无效的code参数"}
+
+
+------------------------------------------------------------------
+2015-09-29 02:57:50
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=client_credential&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"u8tJepWqRKgU7K9IUmzYNxa0DaPpsB2oJKtnplnqOo3OHJeaZ9SmnchpEF9MErQcYE5Ovl4JlWd0OYV81xJPRF2NVUV8wq8gAgGULzIPW2st2bBJ5QPgvTVcH82rofGp","expires_in":7200}
+
+
+------------------------------------------------------------------
+2015-09-29 02:57:51
+GET http://192.168.18.110/openapi/oauth2/access_token?grant_type=authorization_code&client_id=208b6cd46fe84bf08c95f33c3b7c279e&client_secret=0Dw4jPxgwGOtNHJko24O3anSEcGPA2mPCLUZt1FoQuRG3TBeP8kuOKnItNK4sk8c&code=XSJB47T58F&redirect_uri=http://192.168.18.138:8089/auth/login
+stream:
+status:200
+response:{"state":0,"message":null,"access_token":"qkCGUdf5UHmXQrbChJsrlbjiG5LmpxkyQbHFpqvncBnU5HdJPkMFHhAztUjilpAvkvw9IXfIyccPvij8208k46R8QU87JQMU1JLNLXRqpmvLjiVIGkzv16sEu8MIYBla","expires_in":7200,"refresh_token":"mBCD9wniEmOLIB9mihwqwd3S71Xn5KdVyngNl2NtsUauvnVBZm4UXE7bYajUhx69YkML7FaEsHTvTX9bzWYygQSVkIfjYE3Ed70iqwFZ7IQVl1RAk27kSjaYIlf34p2b","openid":"MjA4YjZjZDQ2ZmU4NGJmMDhjOTVmMzNjM2I3YzI3OWUgICAgICAgIDcx","scope":"get_user_info,notice"}
+
+
